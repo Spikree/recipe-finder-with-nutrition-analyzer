@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Borel&family=Dancing+Script&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,100&display=swap');
+
+.nav-bar{
+    font-size: x-large;
+    font-weight: 10rem;
+    display: flex;
+    justify-content: center ;
+    font-family: 'Belanosima', sans-serif;
+    
+
+}
+
+#submit{
+    position: relative;
+    left: 10px;
+}
+
+
+.text-muted{
+    position: relative;
+    left: 20px;
+}
+
+.justify-content-end{
+    position: relative;
+    right: 30px;
+}
+
+h1{
+    display: inline-block;
+    margin: 0;
+    margin-top: 10px;
+}
+
+svg{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.logos{
+    display: inline;
+}
+
+.card{
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bott{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#results:hover .card:not(:hover) {
+    filter: blur(1.5px); 
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.3), 0 0 80px rgba(0, 0, 0, 0.2);
+    filter: none; 
+}
+
+/* header h1 {
+    text-shadow: 0 0 10px rgba(88, 182, 15, 0.8), 0 0 20px rgba(94, 205, 30, 0.8), 0 0 30px rgba(64, 185, 43, 0.8);
+    transition: text-shadow 0.3s ease;
+} */
+
+.btn{
+    position: relative;
+    left: 500px;
+    color: black;
+    font-size: 30px;
+}
+
+
+

@@ -1,0 +1,5 @@
+api Id = b0427c25
+api key = 8151286fd464afc8a7302cd50febe418
+
+
+https://api.edamam.com/search?q=${searchValue}&app_id=b0427c25&app_key=8151286fd464afc8a7302cd50febe418
